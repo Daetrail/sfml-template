@@ -6,7 +6,8 @@ project(Template)
 set(SOURCES_DIR      "src")
 set(INCLUDE_DIR      "include")
 set(SFML_INCLUDE_DIR "${INCLUDE_DIR}/SFML")
-set(SFML_CONFIG      "lib/cmake/SFML")
+set(SFML_LIB_DIR     "lib")
+set(SFML_CONFIG      "${SFML_LIB_DIR}/cmake/SFML")
 
 set(CMAKE_PREFIX_PATH ${SFML_LIB_DIR})
 
@@ -14,7 +15,7 @@ set(CMAKE_PREFIX_PATH ${SFML_LIB_DIR})
 file(GLOB SOURCE_FILES ${SOURCES_DIR}/*.cc)
 
 # SFML Libraries
-find_package(SFML 2.5.1 COMPONENTS graphics window audio system network REQUIRED PATHS ${SFML_CONFIG})
+find_package(SFML 2.5.1 COMPONENTS graphics window audio system network REQUIRED PATHS ${SFML_CONFIG} ${SFML_LIB_DIR})
 
 include_directories(${INCLUDE_DIR} ${SFML_INCLUDE_DIR})
 
