@@ -1,0 +1,3 @@
+/home/matt/C++/sfml-template/build/CMakeFiles/Template.dir
+/home/matt/C++/sfml-template/build/CMakeFiles/edit_cache.dir
+/home/matt/C++/sfml-template/build/CMakeFiles/rebuild_cache.dir

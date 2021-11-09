@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/matt/C++/sfml-template/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-10  -I/home/matt/C++/sfml-template/include -I/home/matt/C++/sfml-template/include/SFML -g -o CMakeFiles/Template.dir/src/main.cc.o -c /home/matt/C++/sfml-template/src/main.cc",
+  "file": "/home/matt/C++/sfml-template/src/main.cc"
+}
+]
