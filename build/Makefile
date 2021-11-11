@@ -153,6 +153,30 @@ src/main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/src/main.cc.s
 .PHONY : src/main.cc.s
 
+src/runner.o: src/runner.cc.o
+.PHONY : src/runner.o
+
+# target to build an object file
+src/runner.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/src/runner.cc.o
+.PHONY : src/runner.cc.o
+
+src/runner.i: src/runner.cc.i
+.PHONY : src/runner.i
+
+# target to preprocess a source file
+src/runner.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/src/runner.cc.i
+.PHONY : src/runner.cc.i
+
+src/runner.s: src/runner.cc.s
+.PHONY : src/runner.s
+
+# target to generate assembly for a file
+src/runner.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/src/runner.cc.s
+.PHONY : src/runner.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/runner.o"
+	@echo "... src/runner.i"
+	@echo "... src/runner.s"
 .PHONY : help
 
 

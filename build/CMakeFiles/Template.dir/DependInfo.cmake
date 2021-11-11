@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/matt/C++/sfml-template/src/main.cc" "CMakeFiles/Template.dir/src/main.cc.o" "gcc" "CMakeFiles/Template.dir/src/main.cc.o.d"
+  "/home/matt/C++/sfml-template/src/runner.cc" "CMakeFiles/Template.dir/src/runner.cc.o" "gcc" "CMakeFiles/Template.dir/src/runner.cc.o.d"
   )
 
 # Targets to which this target links.

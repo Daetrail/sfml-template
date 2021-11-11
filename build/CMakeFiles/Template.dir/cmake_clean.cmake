@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Template.dir/src/main.cc.o"
   "CMakeFiles/Template.dir/src/main.cc.o.d"
+  "CMakeFiles/Template.dir/src/runner.cc.o"
+  "CMakeFiles/Template.dir/src/runner.cc.o.d"
   "Template"
   "Template.pdb"
 )
