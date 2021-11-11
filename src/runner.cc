@@ -36,6 +36,8 @@ void printHelp()
     "-- Subcommands --" << std::endl <<
     "help --> Displays this subcommand list."
     << std::endl <<
+    "version --> Displays info about this program."
+    << std::endl <<
     "runcmake --> Runs the CMake command given. Spits out an error if no CMake command is set."
     << std::endl <<
     "runmake --> Runs the makefile on the path given. Spits out an error if no makefile path is set."
