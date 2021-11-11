@@ -7,9 +7,13 @@
 
 const std::string CONFIGPATH = "runnerconfig.txt";
 
+const std::string VERSION = "1.0";
+
 enum operations
 {
     HELP,
+    GETVERSION,
+
     RUNCMAKE,
     RUNMAKE,
     RUNPROGRAM,
@@ -26,7 +30,7 @@ enum pathIndex
     MAKEDIR
 };
 
-void print_help()
+void printHelp()
 {
     std::cout <<
     "-- Subcommands --" << std::endl <<
@@ -53,6 +57,17 @@ void print_help()
     "2nd Line: CMake command"
     << std::endl << 
     "3rd Line: Makefile directory"
+    << std::endl;
+}
+
+void printVersion()
+{
+    std::cout << "-- Runner --" << std::endl <<
+    "Made for running CMake, Makefiles and executables."
+    << std::endl <<
+    "Created by danangthang/archaicfox."
+    << std::endl <<
+    "Version: " + VERSION
     << std::endl;
 }
 
@@ -121,6 +136,8 @@ int main(int argc, char* argv[])
     {
         if (std::string(argv[1]) == "help")
             currentOperation = HELP;
+        else if (std::string(argv[1]) == "version")
+            currentOperation = GETVERSION;
         else if (std::string(argv[1]) == "runcmake")
             currentOperation = RUNCMAKE;
         else if (std::string(argv[1]) == "runmake")
@@ -143,7 +160,11 @@ int main(int argc, char* argv[])
     switch (currentOperation)
     {
         case HELP:
-            print_help();
+            printHelp();
+            break;
+
+        case GETVERSION:
+            printVersion();
             break;
 
         case RUNCMAKE:
