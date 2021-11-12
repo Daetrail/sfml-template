@@ -313,6 +313,8 @@ int main(int argc, char* argv[])
             setContents(configFile, paths);
             break;
     }
+    
 
+    
     return 0;
 }
