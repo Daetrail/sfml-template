@@ -103,6 +103,8 @@ void printHelp()
     << std::endl <<
     Colour("runprogram", BOLD | BLUE) << " --> Runs the executable on the path given. Spits out an error if no executable path is set."
     << std::endl <<
+    Colour("output", BOLD | BLUE) << " --> Outputs the contents in '" + CONFIGPATH + "'."
+    << std::endl <<
     Colour("setexecutablepath <path-to-executable>", BOLD | BLUE) << " --> Sets the executable path for the runprogram subcommand."
     << std::endl <<
     Colour("setcmakecommand <cmake-command>", BOLD | BLUE)<< " --> Sets the CMake command for the runcmake subcommand."
