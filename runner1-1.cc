@@ -157,7 +157,7 @@ void openFile(std::fstream& file, std::string path, bool trunc)
 void getLines(std::fstream& file, std::array<std::string, 3>& lines)
 {
     size_t i = 0;
-    while(!file.eof())
+    while(!file.eof() && i < lines.size())
     {
         std::string temp;
         std::getline(file, temp);

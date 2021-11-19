@@ -83,37 +83,53 @@ CMakeFiles/Template.dir/src/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Template.dir/src/main.cc.s"
 	/usr/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matt/C++/sfml-template/src/main.cc -o CMakeFiles/Template.dir/src/main.cc.s
 
-CMakeFiles/Template.dir/src/runner.cc.o: CMakeFiles/Template.dir/flags.make
-CMakeFiles/Template.dir/src/runner.cc.o: ../src/runner.cc
-CMakeFiles/Template.dir/src/runner.cc.o: CMakeFiles/Template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/C++/sfml-template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Template.dir/src/runner.cc.o"
-	/usr/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Template.dir/src/runner.cc.o -MF CMakeFiles/Template.dir/src/runner.cc.o.d -o CMakeFiles/Template.dir/src/runner.cc.o -c /home/matt/C++/sfml-template/src/runner.cc
+CMakeFiles/Template.dir/src/runner1-0.cc.o: CMakeFiles/Template.dir/flags.make
+CMakeFiles/Template.dir/src/runner1-0.cc.o: ../src/runner1-0.cc
+CMakeFiles/Template.dir/src/runner1-0.cc.o: CMakeFiles/Template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/C++/sfml-template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Template.dir/src/runner1-0.cc.o"
+	/usr/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Template.dir/src/runner1-0.cc.o -MF CMakeFiles/Template.dir/src/runner1-0.cc.o.d -o CMakeFiles/Template.dir/src/runner1-0.cc.o -c /home/matt/C++/sfml-template/src/runner1-0.cc
 
-CMakeFiles/Template.dir/src/runner.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Template.dir/src/runner.cc.i"
-	/usr/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matt/C++/sfml-template/src/runner.cc > CMakeFiles/Template.dir/src/runner.cc.i
+CMakeFiles/Template.dir/src/runner1-0.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Template.dir/src/runner1-0.cc.i"
+	/usr/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matt/C++/sfml-template/src/runner1-0.cc > CMakeFiles/Template.dir/src/runner1-0.cc.i
 
-CMakeFiles/Template.dir/src/runner.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Template.dir/src/runner.cc.s"
-	/usr/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matt/C++/sfml-template/src/runner.cc -o CMakeFiles/Template.dir/src/runner.cc.s
+CMakeFiles/Template.dir/src/runner1-0.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Template.dir/src/runner1-0.cc.s"
+	/usr/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matt/C++/sfml-template/src/runner1-0.cc -o CMakeFiles/Template.dir/src/runner1-0.cc.s
+
+CMakeFiles/Template.dir/src/runner1-1.cc.o: CMakeFiles/Template.dir/flags.make
+CMakeFiles/Template.dir/src/runner1-1.cc.o: ../src/runner1-1.cc
+CMakeFiles/Template.dir/src/runner1-1.cc.o: CMakeFiles/Template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/C++/sfml-template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Template.dir/src/runner1-1.cc.o"
+	/usr/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Template.dir/src/runner1-1.cc.o -MF CMakeFiles/Template.dir/src/runner1-1.cc.o.d -o CMakeFiles/Template.dir/src/runner1-1.cc.o -c /home/matt/C++/sfml-template/src/runner1-1.cc
+
+CMakeFiles/Template.dir/src/runner1-1.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Template.dir/src/runner1-1.cc.i"
+	/usr/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matt/C++/sfml-template/src/runner1-1.cc > CMakeFiles/Template.dir/src/runner1-1.cc.i
+
+CMakeFiles/Template.dir/src/runner1-1.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Template.dir/src/runner1-1.cc.s"
+	/usr/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matt/C++/sfml-template/src/runner1-1.cc -o CMakeFiles/Template.dir/src/runner1-1.cc.s
 
 # Object files for target Template
 Template_OBJECTS = \
 "CMakeFiles/Template.dir/src/main.cc.o" \
-"CMakeFiles/Template.dir/src/runner.cc.o"
+"CMakeFiles/Template.dir/src/runner1-0.cc.o" \
+"CMakeFiles/Template.dir/src/runner1-1.cc.o"
 
 # External object files for target Template
 Template_EXTERNAL_OBJECTS =
 
 Template: CMakeFiles/Template.dir/src/main.cc.o
-Template: CMakeFiles/Template.dir/src/runner.cc.o
+Template: CMakeFiles/Template.dir/src/runner1-0.cc.o
+Template: CMakeFiles/Template.dir/src/runner1-1.cc.o
 Template: CMakeFiles/Template.dir/build.make
 Template: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 Template: /usr/lib/x86_64-linux-gnu/libsfml-network.so.2.5.1
 Template: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 Template: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 Template: CMakeFiles/Template.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matt/C++/sfml-template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Template"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matt/C++/sfml-template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Template"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Template.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

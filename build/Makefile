@@ -153,29 +153,53 @@ src/main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/src/main.cc.s
 .PHONY : src/main.cc.s
 
-src/runner.o: src/runner.cc.o
-.PHONY : src/runner.o
+src/runner1-0.o: src/runner1-0.cc.o
+.PHONY : src/runner1-0.o
 
 # target to build an object file
-src/runner.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/src/runner.cc.o
-.PHONY : src/runner.cc.o
+src/runner1-0.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/src/runner1-0.cc.o
+.PHONY : src/runner1-0.cc.o
 
-src/runner.i: src/runner.cc.i
-.PHONY : src/runner.i
+src/runner1-0.i: src/runner1-0.cc.i
+.PHONY : src/runner1-0.i
 
 # target to preprocess a source file
-src/runner.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/src/runner.cc.i
-.PHONY : src/runner.cc.i
+src/runner1-0.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/src/runner1-0.cc.i
+.PHONY : src/runner1-0.cc.i
 
-src/runner.s: src/runner.cc.s
-.PHONY : src/runner.s
+src/runner1-0.s: src/runner1-0.cc.s
+.PHONY : src/runner1-0.s
 
 # target to generate assembly for a file
-src/runner.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/src/runner.cc.s
-.PHONY : src/runner.cc.s
+src/runner1-0.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/src/runner1-0.cc.s
+.PHONY : src/runner1-0.cc.s
+
+src/runner1-1.o: src/runner1-1.cc.o
+.PHONY : src/runner1-1.o
+
+# target to build an object file
+src/runner1-1.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/src/runner1-1.cc.o
+.PHONY : src/runner1-1.cc.o
+
+src/runner1-1.i: src/runner1-1.cc.i
+.PHONY : src/runner1-1.i
+
+# target to preprocess a source file
+src/runner1-1.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/src/runner1-1.cc.i
+.PHONY : src/runner1-1.cc.i
+
+src/runner1-1.s: src/runner1-1.cc.s
+.PHONY : src/runner1-1.s
+
+# target to generate assembly for a file
+src/runner1-1.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/src/runner1-1.cc.s
+.PHONY : src/runner1-1.cc.s
 
 # Help Target
 help:
@@ -189,9 +213,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/runner.o"
-	@echo "... src/runner.i"
-	@echo "... src/runner.s"
+	@echo "... src/runner1-0.o"
+	@echo "... src/runner1-0.i"
+	@echo "... src/runner1-0.s"
+	@echo "... src/runner1-1.o"
+	@echo "... src/runner1-1.i"
+	@echo "... src/runner1-1.s"
 .PHONY : help
 
 
